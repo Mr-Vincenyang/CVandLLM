@@ -10,7 +10,7 @@ from langchain.chains import RetrievalQA
 import gradio as gr
 
 os.system("python model_download.py")
-os.system("python create_security.py")
+os.system("python create_act.py")
 
 def load_chain():
     # 加载问答链
